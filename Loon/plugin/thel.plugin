@@ -1,0 +1,11 @@
+#!name=The L VIP解锁
+#!desc=解锁热拉会员
+#!icon=https://www.google.com/imgres?q=the%20L%20icon&imgurl=https%3A%2F%2Fcdn-icons-png.freepik.com%2F512%2F8142%2F8142634.png&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ficon%2Fletter-l_8142634&docid=p7dA6zuavaNgZM&tbnid=0zLqQ6-7mDcP_M&vet=12ahUKEwiAlOHJ18uIAxV1m68BHeZTBB0QM3oECHUQAA..i&w=512&h=512&hcb=2&ved=2ahUKEwiAlOHJ18uIAxV1m68BHeZTBB0QM3oECHUQAA
+#!homepage=https://too.st/7hI
+#!author=@Seline
+
+[Script]
+http-response ^https:\/\/api\.rela\.me\/v(2|3)\/(interface|payment|users|params)\/(stay|ios-vip-status|vip|init).+ script-path=https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/thel.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = api.rela.me
